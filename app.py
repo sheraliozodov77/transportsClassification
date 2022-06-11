@@ -3,12 +3,8 @@ import streamlit as st
 import platform
 import pathlib
 import plotly.express as px
-plat = platform.system()
-
-if plat == 'Linus': pathlib.PosixPath = pathlib.WindowsPath
-
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+plt = platform.system()
+if plt == 'Linus': pathlib.PosixPath = pathlib.WindowsPath
 
 ## title
 st.title('Transportni klassifikatsiya qiluvchi model')
