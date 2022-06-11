@@ -4,7 +4,7 @@ import platform
 import pathlib
 import plotly.express as px
 plt = platform.system()
-if plt == 'Linus': pathlib.PosixPath = pathlib.WindowsPath
+if plt == 'Linux': pathlib.PosixPath = pathlib.WindowsPath
 
 ## title
 st.title('Transportni klassifikatsiya qiluvchi model')
