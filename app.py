@@ -4,7 +4,7 @@ import platform
 import pathlib
 import plotly.express as px
 plat = platform.system()
-if plat == 'Linux': pathlib.PosixPath = pathlib.WindowsPath
+if plat == 'Windows': pathlib.PosixPath = pathlib.WindowsPath
 
 
 ## title
