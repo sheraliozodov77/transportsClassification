@@ -11,7 +11,7 @@ if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 st.title('Transportni klassifikatsiya qiluvchi model')
 
 # rasmni joylash
-file = st.file_uploader('Rasm yuklash', type=['png','jpeg','gif','svg','pkl'])
+file = st.file_uploader('Rasm yuklash', type=['png','jpeg','gif','svg','pkl','jpg'])
 if file:
     st.image(file)
     # PIL konvert
